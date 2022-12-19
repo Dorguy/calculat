@@ -77,7 +77,7 @@ def do_army(screen, enemies):
     данная функция создает армию. Для этого надо создать одного и взять с него параметры
     :param screen: доступ к экрану
     :param enemies: класс инопланетян
-    :return:
+    :return: создание армии
     '''
     enemy = Enemy(screen)
     enemy_height = enemy.rect.height
