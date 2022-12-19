@@ -2,3 +2,4 @@ pygame
 tkinter
 math
 sys
+numpy
