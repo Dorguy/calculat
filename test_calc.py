@@ -14,11 +14,7 @@ class Test_0(unittest.TestCase):
         self.assertEqual(test_calculator.validate_e('T'), (False))
         self.assertEqual(test_calculator.validate_e('-'), (True))
 
-    '''def test_values(self):
-        self.assertRaises(ValueError, kv_ur, -5, -5, -56)
-
-    def test_types(self):
-        self.assertRaises(TypeError, kv_ur, 'ghj', 5, 6)'''
+    
 
     def test_3(self):
         self.assertEqual(test_calculator.add_pl(10.0, 45.0), ('55.0'))
@@ -53,8 +49,7 @@ class Test_0(unittest.TestCase):
         self.assertEqual(test_calculator.add_calculation_0('5-6'), ('-1'))
         self.assertRaises(TypeError, test_calculator.add_calculation_0, '_-_')
 
-    '''def test_9(self):
-        self.assertEqual(test_calculator.Ugol2(10.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70), (30))'''
+    
 
     def test_9(self):
         self.assertEqual(test_calculator.game(), True)
