@@ -56,7 +56,7 @@ def update_screen(back_image, screen, gun, enemies, bullets):
 
 def kill_bul(bullets, screen, enemies):
     '''
-
+    удаление пуль и столкновение с врагом
     :param bullets: класс пуль
     :param screen: доступ к экрану, чтобы отрисовать
     :param enemies: класс врагов
